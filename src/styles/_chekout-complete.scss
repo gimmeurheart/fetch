@@ -1,0 +1,21 @@
+.chekout-complete {
+    margin-top: 29px;
+    .processed {
+        width: 464px;
+
+        &__title {
+            font-weight: 700;
+            font-size: 32px;
+        }
+
+        &__text {
+            font-size: 18px;
+            line-height: 2rem;
+            margin-top: 32px;
+
+            a {
+                color: #000;
+            }
+        }
+    }
+}

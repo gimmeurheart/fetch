@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="preload" as="font" type="font/woff2"
+   href="../fonts/pt-sans-v11-latin_cyrillic-700.woff2" crossorigin>
+   <link rel="preload" as="font" type="font/woff2"
+   href="../fonts/pt-sans-v11-latin_cyrillic-regular.woff2" crossorigin>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>fetch</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="../img/favicons/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="../img/favicons/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="../img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="../img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="../img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="../img/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="../img/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+    @@include("../blocks/modules/header/header.html")
+    <section class="main-nav">
+        <div class="container">
+            <div class="main-nav__inner">
+                <div class="main-nav__about">
+                    <p><strong>Фетч</strong> — мультибрендовый магазин модной одежды.</p>
+                    <p>Следим за трендами и часто обновляем ассортимент.</p>
+                    <p>Доставляем по Москве за день, по России — за неделю.</p>
+                </div>
+                <div class="main-nav__menu">
+                    <div class="main-nav__menu-item">
+                        <h4>Для мужчин</h4>
+                        <ul>
+                            <li><a href="#">Верхняя одежда</a></li>
+                            <li><a href="#">Рубашки и поло</a></li>
+                            <li><a href="#">Трикотаж</a></li>
+                            <li><a href="#">Брюки и джинсы</a></li>
+                            <li><a href="#">Бельё и носки</a></li>
+                        </ul>
+                    </div>
+                    <div class="main-nav__menu-item">
+                        <h4>Для женщин</h4>
+                        <ul>
+                            <li><a href="#">Верхняя одежда</a></li>
+                            <li><a href="#">Рубашки и поло</a></li>
+                            <li><a href="#">Трикотаж</a></li>
+                            <li><a href="#">Платья и юбки</a></li>
+                            <li><a href="#">Бельё и носки</a></li>
+                        </ul>
+                    </div>
+                    <div class="main-nav__menu-item">
+                        <h4>Обувь</h4>
+                        <ul>
+                            <li><a href="#">Кроссовки и кеды</a></li>
+                            <li><a href="#">Ботинки</a></li>
+                        </ul>
+                    </div>
+                    <div class="main-nav__menu-item">
+                        <h4>Аксессуары</h4>
+                        <ul>
+                            <li><a href="#">Сумки и рюкзаки</a></li>
+                            <li><a href="#">Часы</a></li>
+                            <li><a href="#">Бижутерия</a></li>
+                            <li><a href="#">Средства для ухода</a></li>
+                        </ul>
+                    </div>
+                    <div class="main-nav__menu-item">
+                        <h4>Скидки</h4>
+                        <ul>
+                            <li><a href="#">Летняя распродажа</a></li>
+                            <li><a href="#">Коллекция 2018</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="collections">
+        <div class="container">
+            <div class="collections__inner">
+                <div class="collections-lookbook">
+                    <div class="collections-lookbook__text">
+                        <h2>Лукбук, лето 2019</h2>
+                        <p>Стильные образы для тёплых деньков</p>
+                    </div>
+                    <img data-src="../img/lookbook.png" alt="">
+                </div>
+                <div class="collections-adidas">
+                    <div class="collections-adidas__text">
+                        <h2>Новая коллекция adidas Originals</h2>
+                        <p>Десять крутейших кроссовок</p>
+                    </div>
+
+                    <img data-src="../img/sneakers.png" alt="">
+                </div>
+                <div class="collections-watch">
+                    <div class="collections-watch__text">
+                        <h2>Выбор редакции: часы</h2>
+                        <p>ТОП-5 лучших предложений по версии администрации Фетч</p>
+                    </div>
+                </div>
+                <div class="collections-preorder">
+                    <div class="collections-preorder__text">
+                        <h2>Предзаказ: Maison Margiela Fusion</h2>
+                        <p>От 92 000 ₽</p>
+
+                    </div>
+                    <div class="crosses">
+                            <img data-src="../img/maison-1.png" alt="">
+                            <img data-src="../img/maison-2.png" alt="">
+                            <img data-src="../img/maison-3.png" alt="">
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @@include("../blocks/modules/footer/footer.html")
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

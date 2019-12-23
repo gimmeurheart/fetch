@@ -1,0 +1,52 @@
+.aboutus {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+
+        .email {
+            padding-bottom: 11px;
+
+        }
+
+        .call {
+            padding-bottom: 14px;
+        }
+    }
+
+    &__main {
+        width: 464px;
+        font-size: 18px;
+
+        h1 {
+            font-size: 32px;
+            padding-bottom: 32px;
+        }
+
+        &-text {
+            padding-bottom: 64px;
+        }
+    }
+
+    &__contacts {
+        width: 586px;
+        height: 354px;
+        background-color: #f2f2f2;
+        font-size: 16px;
+        margin-top: 41px;
+        .inner {
+            padding: 21px 0 0 26px;
+        }
+        a {
+            color: #000;
+        }
+
+        .phone {
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .call {
+            font-size: 13px;
+        }
+    }
+}

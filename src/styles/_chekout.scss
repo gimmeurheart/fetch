@@ -1,0 +1,162 @@
+.chekout {
+    .container {
+        position: relative;
+    }
+
+    &__title {
+
+        h1 {
+            font-size: 32px;
+
+            span {
+                color: #ddd;
+            }
+        }
+    }
+
+    &__main {
+        display: flex;
+        justify-content: space-between;
+
+        &-goods {
+            margin-top: 32px;
+
+            &__item {
+                margin-top: 24px;
+                display: flex;
+            }
+
+            &_info {
+                margin-left: 16px;
+                width: 163px;
+            }
+        }
+    }
+}
+
+form {
+    width: 488px;
+
+    input {
+        width: 265px;
+        height: 42px;
+        border: 1px solid #DDDDDD;
+        border-radius: 2px;
+        padding-left: 11px;
+
+
+    }
+
+
+    .email {
+        margin-left: 40px;
+    }
+
+    .telephone {
+        margin-left: 44px;
+        margin-top: 24px;
+    }
+
+    .city {
+        margin-left: 63px;
+        margin-top: 40px;
+    }
+
+    .uaddress {
+        margin-left: 61px;
+        margin-top: 24px;
+        height: 84px;
+        width: 248px;
+        border: 1px solid #DDDDDD;
+        border-radius: 2px;
+        padding: 10px 17px 0 12px;
+        resize: none;
+    }
+
+    .underinput {
+        font-size: 13px;
+        line-height: 17px;
+        color: #666;
+        margin-left: 115px;
+    }
+
+    .payment {
+        width: 488px;
+        height: 98px;
+        background-color: #F2F2F2;
+        margin-top: 32px;
+        display: flex;
+
+        .delivery {
+            width: 130px;
+            height: 51px;
+            font-size: 13px;
+            line-height: 17px;
+            padding: 28px 0 0 24px;
+        }
+
+        .btn {
+            margin: 35px 0 0 59px;
+            width: 230px;
+            height: 42px;
+            background: linear-gradient(180deg, #FFC908 0%, #FFBA08 100%);
+            box-shadow: 0px 0px 15px rgba(255, 146, 17, 0.5);
+            border-radius: 4px;
+            border: none;
+            font-weight: 700;
+            cursor: pointer;
+
+            &:hover {
+                background: linear-gradient(180deg, #F5BF00 0%, #F0AD00 100%);
+            }
+        }
+    }
+}
+
+hr {
+    margin-top: 22.95px;
+    margin-left: -30px;
+    width: 488px;
+    height: 1px;
+    background-color: #DDDDDD;
+    border: #DDDDDD;
+    position: absolute;
+    left: 0;
+}
+
+.bot__price {
+
+    margin: 40px 0px 80px 359px;
+
+    .price {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 31px;
+    }
+
+    .sub-price {
+        font-size: 13px;
+        color: #666666;
+    }
+}
+
+.chekout-footer__inner {
+    margin-top: 56px;
+        display: flex;
+        padding-bottom: 32px;
+        font-size: 13px;
+        color: #666;
+
+        div:not(:first-child) {
+            margin-left: 24px;
+        }
+
+        a {
+            color: inherit;
+            transition: all .2s ease;
+
+            &:hover {
+                color: #4541FE;
+            }
+        }
+}
