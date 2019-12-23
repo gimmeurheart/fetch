@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="preload" as="font" type="font/woff2"
+   href="../fonts/pt-sans-v11-latin_cyrillic-700.woff2" crossorigin>
+   <link rel="preload" as="font" type="font/woff2"
+   href="../fonts/pt-sans-v11-latin_cyrillic-regular.woff2" crossorigin>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Карточка товара</title>
+    <meta name="theme-color" content="#c9e0e04d">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="../img/favicons/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="../img/favicons/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="../img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="../img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="../img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="../img/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="../img/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="stylesheet" type="text/css" href="//cdn.min.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.min.css">
+    <link rel="stylesheet" href="../styles/main.min.css">
+</head>
+
+<body>
+    
+    <header class="item-nav">
+        <div class="container">
+            <div class="item-nav__inner">
+                <div class="header__nav">
+                    <div class="header__logo">
+                        <a href="index.html">Фетч</a>
+                    </div>
+                    <div class="nav-menu">
+                        <ul class="menu">
+                            <li class="nav-item"><a href="#" class="nav-link">Одежда</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Обувь</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Аксессуары</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Блог</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Магазин</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Доставка и оплата</a></li>
+                        </ul>
+                    </div>
+                    <div class="personal-item">
+                        <div class="order">
+                            <div class="circle"><img src="../../../img/svg/icon-cart.svg" alt=""></div>
+                            <div class="order-text">
+                                <a href="#" class="order-link">Оформить заказ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="container">
+            <div class="main__inner">
+                <div class="main__info">
+                    <h1 class="main__info-title">Maison Margiela Fusion Low Sneakers</h1>
+                    <p class="main__info-subtitle">Кроссовки</p>
+
+                    <div class="main__info-item__buy">
+                        <div class="color" id="tabs">Цвет
+                            <label class="tab">
+                                <span>Белый с розовым</span>
+                            </label>
+                            <label class="tab">
+                                <span>Белый с зеленым</span>
+                            </label>
+                        </div>
+                        <div class="size-us" id="tabs-2">Размер US
+                            <label class="tab-2">
+                                <span>6</span>
+                            </label>
+                            <label class="tab-2">
+                                <span>6,5</span>
+                            </label>
+                            <label class="tab-2">
+                                <span>7</span>
+                            </label>
+                            <label class="tab-2">
+                                <span>9</span>
+                            </label>
+                        </div>
+
+                        <div class="size-table"><a data-fancybox data-src="#table" href="javascript:;" href="#">Таблица размеров</a></div>
+
+                        <button class="btn">Купить, 92 000 ₽</button>
+                    </div>
+
+                    <div class="main__info-description">
+                        <div class="main__info-about">
+                            <div class="material">
+                                <div class="description">Материал</div>
+                                <p>Кожа, текстиль</p>
+                            </div>
+                            <div class="country">
+                                <div class="description">Страна-производитель</div>
+                                <p>Италия</p>
+                            </div>
+                        </div>
+                        <div class="description">Описание</div>
+                        <p style="margin-top: 2px;">Деконструктивный и авангардный дизайн с уникальными концепциями и нетрадиционным мастерством.</p>
+                        <p>В качестве материала используются два вида кожи. Верх дополнен деталями из сетчатого материала и текстиля.</p>
+                        <p>Грубые и многослойные кроссовки показывают отличие от традиционного аккуратного стиля создания обуви. Они оснащены раскрашенной вручную резиновой подошвой с брызгами и потеками.</p>
+                        <p>Оригинальная слегка асимметричная система шнуровки и фирменный стежок на заднике завершают уникальный внешний вид.</p>
+
+                        <ul>
+                            <li>Два вида кожи</li>
+                            <li>Детали из текстиля</li>
+                            <li>Неординарная шнуровка</li>
+                            <li>Перфорация на мыке</li>
+                            <li>Стежок на заднике</li>
+                            <li>Фигурная резиновая подошва</li>
+                            <li>Цепкая подметка</li>
+                            <li>Окрашивание брызгами и потеками</li>
+                            <li>Пестрая расцветка</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="showing" id="tabs-3">
+                    <!--<img src="../../img/maison-1.jpg" alt="">-->
+                    <div class="showing-img"><img src="../../img/maison-showing-1.jpg" name="example_img" alt="Картинки для демонстрации работы скрипта смены изображений"></div>
+                    <div>
+                    <a class="mini-img" href="javascript:l_image ('../../img/../../img/maison-showing-1.jpg')"><img class="tab-3 active-img" src="../../../img/maison-showing-mini-1.jpg" alt=""></a>
+                    <a class="mini-img" href="javascript:l_image ('../../img/maison-showing-2.jpg')"><img class="tab-3" src="../../../img/maison-showing-mini-2.jpg" alt=""></a>
+                    <a class="mini-img" href="javascript:l_image ('../../img/maison-showing-3.jpg')"><img class="tab-3" src="../../../img/maison-showing-mini-3.jpg" alt=""></a>
+                    <a class="mini-img" href="javascript:l_image ('../../img/maison-showing-4.jpg')"><img class="tab-3" src="../../../img/maison-showing-mini-4.jpg" alt=""></a>
+                    </div>
+
+
+                    <script type="text/javascript">
+                        function l_image(a) {
+                            document.example_img.src = a
+                        }
+
+                    </script>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="interesting">
+        <div class="container">
+            <div class="interesting__inner">
+                <div class="interesting__title">Вам может быть интересно</div>
+                <div class="interesting__slider">
+
+                    <div class="interesting__slider-item">
+                        <a href="#"><img src="../../img/catalog/img-3.jpg" alt=""></a>
+                        <h4><a href="#"> Maison Margiela Fusion<br>Low Sneakers</a></h4>
+                        <p>Кроссовки</p>
+                        <div class="price">92 000 ₽</div>
+                    </div>
+                    <div class="interesting__slider-item">
+                        <a href="#"><img src="../../img/catalog/img-9.jpg" alt=""></a>
+                        <h4><a href="#"> Maison Margiela Fusion<br>Low Sneakers</a></h4>
+                        <p>Кроссовки</p>
+                        <div class="price">92 000 ₽</div>
+                    </div>
+                    <div class="interesting__slider-item">
+                        <a href="#"><img src="../../img/catalog/img-16.jpg" alt=""></a>
+                        <h4><a href="#"> Maison Margiela Fusion<br>Low Sneakers</a></h4>
+                        <p>Кроссовки</p>
+                        <div class="price">92 000 ₽</div>
+                    </div>
+                    <div class="interesting__slider-item">
+                        <a href="#"><img src="../../img/catalog/img-1.jpg" alt=""></a>
+                        <h4><a href="#"> Maison Margiela Fusion<br>Low Sneakers</a></h4>
+                        <p>Кроссовки</p>
+                        <div class="price">92 000 ₽</div>
+                    </div>
+                    <div class="interesting__slider-item">
+                        <a href="#"><img src="../../img/catalog/img-14.jpg" alt=""></a>
+                        <h4><a href="#"> Maison Margiela Fusion<br>Low Sneakers</a></h4>
+                        <p>Кроссовки</p>
+                        <div class="price">92 000 ₽</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="table">
+        <h2>Таблица размеров</h2>
+        <table>
+            <tr>
+                <th>US</th>
+                <td>4</td>
+                <td>4,5</td>
+                <td>5</td>
+                <td>5,5</td>
+                <td>6</td>
+                <td>6,5</td>
+                <td>7</td>
+                <td>7,5</td>
+            </tr>
+            <tr>
+                <th>UK</th>
+                <td>3,5</td>
+                <td>4</td>
+                <td>4,5</td>
+                <td>5</td>
+                <td>5,5</td>
+                <td>6</td>
+                <td>6,5</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <th>EU</th>
+                <td>36</td>
+                <td>37</td>
+                <td>38</td>
+                <td>39</td>
+                <td>40</td>
+                <td>41</td>
+                <td>42</td>
+                <td>43</td>
+            </tr>
+        </table>
+    </div>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__menu">
+                   <div class="footer__menu-item">
+                        <h4>Фетч</h4>
+                        <ul>
+                            <li><a href="#">Магазин</a></li>
+                            <li><a href="#">Блог</a></li>
+                            <li><a href="#">Доставка и оплата</a></li>
+                        </ul>
+                        <div class="footer-contact">
+                            <a href="emailto:shop@fetch.ru">shop@fetch.ru</a>
+                            <div class="phone"><a href="tel:88009121142">8 800 912-11-42</a></div>
+                            <p>Звонок бесплатный</p>
+                        </div>
+                    </div>
+                    <div class="footer__menu-item">
+                        <h4>Для мужчин</h4>
+                        <ul>
+                            <li><a href="#">Верхняя одежда</a></li>
+                            <li><a href="#">Рубашки и поло</a></li>
+                            <li><a href="#">Трикотаж</a></li>
+                            <li><a href="#">Брюки и джинсы</a></li>
+                            <li><a href="#">Бельё и носки</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu-item">
+                        <h4>Для женщин</h4>
+                        <ul>
+                            <li><a href="#">Верхняя одежда</a></li>
+                            <li><a href="#">Рубашки и поло</a></li>
+                            <li><a href="#">Трикотаж</a></li>
+                            <li><a href="#">Платья и юбки</a></li>
+                            <li><a href="#">Бельё и носки</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu-item">
+                        <h4>Обувь</h4>
+                        <ul>
+                            <li><a href="#">Кроссовки и кеды</a></li>
+                            <li><a href="#">Ботинки</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu-item">
+                        <h4>Аксессуары</h4>
+                        <ul>
+                            <li><a href="#">Сумки и рюкзаки</a></li>
+                            <li><a href="#">Часы</a></li>
+                            <li><a href="#">Бижутерия</a></li>
+                            <li><a href="#">Средства для ухода</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu-item">
+                        <h4>Скидки</h4>
+                        <ul>
+                            <li><a href="#">Летняя распродажа</a></li>
+                            <li><a href="#">Коллекция 2018</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-copy">
+                    <div>© Фетч-команда, 2019</div>
+                    <div class="data"><a data-fancybox data-src="#modal" href="javascript:;" href="#">Правила обработки персональных данных</a></div>
+                    <div class="site"><a href="#">Разработка и поддержка сайта</a></div>
+                </div>
+        </div>
+    </div>
+</footer>
+<div id="modal">
+        <h3>Правила обработки персональных данных</h3>
+        <p>Предоставляя свои персональные данные, Пользователь дает согласие на обработку, хранение и использование своих данных на основании ФЗ №152-ФЗ «О персональных данных» от 27.07.2006г. в следующих целях:</p>
+        <ul>
+            <li>Осуществление клиентской поддержки;</li>
+            <li>Получения Пользователем информации о маркетинговых событиях;</li>
+            <li>Проведения аудита и внутренних исследований с целью повышения качества предоставляемых услуг.</li>
+        </ul>
+        <p>Под персональными данными подразумевается любая информация личного характера, позволяющая установить личность Пользователя, такая как:</p>
+        <ul>
+            <li>Фамилия, имя и отчество</li>
+        </ul>
+        <p>Персональные данные Пользователей хранятся сключительно на электронных носителях и обрабатываются с использованием автоматизированных систем, за исключением случаев, когда неавтоматизированная обработка персональных данных необходима в связи с исполнением требований законодательства.</p>
+        <p>Компания обязуется не передавать полученные персональные данные третьим лицам, за исключением следующих случаев:</p>
+        <p>По запросам уполномоченных органов государственной власти РФ только по основаниям и в порядке, установленном законодательством РФ</p>
+        <p>Компания оставляет за собой право вносить изменения в одностороннем порядке в настоящие правила, при условии, что изменения не противоречат действующему законодательству РФ. Изменения условий настоящих правил вступают в силу после их публикации на Сайте.</p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.min.js"></script>
+    <script type="text/javascript" src="//cdn.min.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.min.js"></script>
+    <script src="../js/main.min.js"></script>
+
+</body>
+
+</html>
